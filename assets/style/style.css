@@ -1,0 +1,46 @@
+/* BASIC STYLES HERE */
+body {
+  background-position: center;
+  background-size: cover;
+  color: white;
+}
+
+p {
+  margin: 0;
+}
+
+.submit-btn {
+  height: 38px;
+  width: 55px;
+  border-radius: 5px;
+  border: 1px solid white;
+  background: transparent;
+}
+
+.quote {
+  text-shadow: 2px 2px 2px black;
+}
+
+.banner {
+  border-radius: 60px;
+  background: rgba(13, 13, 13, 0.50);
+  backdrop-filter: blur(7.5px);
+}
+
+.weather {
+  border-radius: 10px;
+  background: rgba(13, 13, 13, 0.50);
+  backdrop-filter: blur(7.5px);
+  border: 1px solid #FFF;
+  user-select: none;
+}
+
+.todo-list {
+  height: fit-content;
+  width: 25% !important;
+  margin-top: 5rem;
+  border-radius: 10px;
+  background: rgba(13, 13, 13, 0.42);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(7.5px);
+}
